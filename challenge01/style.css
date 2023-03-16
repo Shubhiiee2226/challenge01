@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+background: url(images/bg-hero-mobile.svg);
+
+}
+
+
+
+.btn{
+    text-align: right;
+    border: 2px solid red;
+    padding: 20px;
+    margin-top: 0%;
+    display:flex; 
+    flex-direction: column;
+    justify-content:flex-end; 
+    align-items:center;  
+
+
+    
+}.buttons { 
+    display:flex; 
+    justify-content:flex-end; 
+    align-items:center;  
+    margin-top: 100px;
+  } 
+
+
+
+
+
+  .illust{
+float: right;
+margin-top: 5%;
+margin-right: 5%;
+width: 50%;
+    
+
+  }
+
+
+p{
+   text-size-adjust: bold; 
+
+
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+  }
+  
+
+
+
+
+
+  .round-btn {
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+  
